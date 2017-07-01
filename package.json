@@ -1,0 +1,27 @@
+{
+  "name": "@paulallen87/chaturbate-hue-lights",
+  "version": "1.0.0",
+  "description": "Chaturbate integration with Philips Hue lights",
+  "main": "index.js",
+  "repository": "https://github.com/paulallen87/chaturbate-hue-lights",
+  "author": "Paul Allen <paulallen87555@gmail.com>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "chaturbate",
+    "hue",
+    "lights"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@paulallen87/chaturbate-browser": "^1.1.6",
+    "@paulallen87/chaturbate-controller": "^1.0.8",
+    "debug": "^2.6.8",
+    "nconf": "^0.8.4",
+    "node-hue-api": "^2.4.2"
+  }
+}
