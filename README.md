@@ -3,6 +3,10 @@ Chaturbate integrations with Philips Hue lights.
 
 ## Usage
 
+```shell
+yarn install
+```
+
 Press the **Link** button on your Hue Hub right before you first run this. Additional runs will not require this, only the first time.
 
 ```shell
